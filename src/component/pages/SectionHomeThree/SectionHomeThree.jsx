@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Colors from "../common/Colors";
+import Colors from "../../common/Colors";
 import { faArrowAltCircleLeft, faChevronRight, faDollar } from "@fortawesome/free-solid-svg-icons";
 
-export default function SectionTree(){
+export default function SectionHomeThree(){
     return(
         <section className={`flex justify-center items-center bg-[${Colors().lightBlue}] py-10 flex-col`}>
             <header className=" text-[2.5em] text-center font-semibold w-[600px]">

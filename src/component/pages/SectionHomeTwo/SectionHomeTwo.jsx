@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Colors from "../common/Colors";
+import Colors from "../../common/Colors";
 import { faDollar } from "@fortawesome/free-solid-svg-icons";
 
-export default function SectionTwo(){
+export default function SectionHomeTwo(){
     return(
         <section className='flex justify-center flex-col h-[100%] pb-20'>
         <header

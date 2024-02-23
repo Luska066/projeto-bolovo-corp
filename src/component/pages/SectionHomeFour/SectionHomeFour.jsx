@@ -1,14 +1,14 @@
 import { faDollar } from "@fortawesome/free-solid-svg-icons";
-import ButtonCoteNow from "../common/ButtonCoteNow";
-import Colors from "../common/Colors";
+import ButtonCoteNow from '../../common/ButtonCoteNow';
+import Colors from "../../common/Colors";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function SectionFour() {
+export default function SectionHomeFour() {
     return (
         <section className={`h-screen w-full bg-[${Colors().lightNavBlue}] flex gap-8 items-center justify-end  pe-24 `}>
 
                 <article className="flex flex-col gap-8 justify-center w-[36%] ps-20 pt-20 items-start  pe-4 flex-wrap">
-                    <h1 className={`text-[${Colors().blue}] font-light text-[45px] `}>Proteja seu celular com a Zurich em poucos passos:</h1>
+                    <h1 className={`text-[${Colors().blue}] text-[45px] `}>Proteja seu celular com a Zurich em poucos passos:</h1>
                     <ul className="flex flex-col w-[100%] items-start gap-10">
                         <li className="flex items-center justify-center gap-6">
                             <p className={`

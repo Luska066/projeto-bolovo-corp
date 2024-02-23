@@ -5,7 +5,7 @@ import CoberturaMain from './component/Coberturas/CoberturaMain/CoberturaMain'
 function App() {
   
   return (
-    <CoberturaMain/>
+    <SectionHomeMain/>
   )
 }
 

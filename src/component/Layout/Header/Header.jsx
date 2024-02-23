@@ -44,7 +44,7 @@ export default function Header({styled}) {
                         color={Colors().blue}
                         icon={faFileCircleCheck}
                     />
-                    <span className="text-span-header">Coberturas</span>
+                    <span className="text-span-header">Termos</span>
                 </div>
                 <div className={`
                     flex items-center gap-2 
@@ -55,7 +55,7 @@ export default function Header({styled}) {
                         color={Colors().blue}
                         icon={faQuestionCircle}
                     />
-                    <span className="text-span-header">Coberturas</span>
+                    <span className="text-span-header">Dúvidas frequentes</span>
                 </div>
                 <div className={`
                     flex items-center gap-2 

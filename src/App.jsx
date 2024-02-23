@@ -1,5 +1,4 @@
-import SectionHomeMain from './component/pages/Home/SectionHomeMain'
-import CoberturaMain from './component/Coberturas/CoberturaMain/CoberturaMain'
+import SectionHomeMain from '../src/component/pages/CoberturaMain/CoberturaMain'
 
 
 function App() {

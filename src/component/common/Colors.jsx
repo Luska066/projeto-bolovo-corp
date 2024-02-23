@@ -7,6 +7,7 @@ export default function Colors(){
         lightPink:'#e9d3c3',
         navyBlue:'#23366f',
         lightNavBlue:'#dde4e3',
-        lightBlue:'#eceeef'
+        lightBlue:'#eceeef',
+        tdTableSecondColumn:'#C9D0D2'
     }
 }

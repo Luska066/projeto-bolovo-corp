@@ -1,5 +1,5 @@
 import Colors from "../../../../common/Colors";
-import Image from '..//.//..//..//assets/img01.webp'
+import Image from '..//.//..//..//..//..//assets/img01.webp'
 import ButtonCoteNow from '../../../../common/ButtonCoteNow';
 import './index.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

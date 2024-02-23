@@ -1,11 +1,11 @@
-import SectionHomeMain from './component/pages/SectionHomeMain/SectionHomeMain'
+import SectionHomeMain from './component/pages/Home/SectionHomeMain'
 import CoberturaMain from './component/Coberturas/CoberturaMain/CoberturaMain'
 
 
 function App() {
   
   return (
-    <CoberturaMain/>
+    <SectionHomeMain/>
   )
 }
 

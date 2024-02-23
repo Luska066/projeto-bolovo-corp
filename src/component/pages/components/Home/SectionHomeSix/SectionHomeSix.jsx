@@ -1,5 +1,5 @@
 import './index.css'
-import Colors from "../../common/Colors";
+import Colors from "../../../../common/Colors";
 
 export default function SectionHomeSix(){
     return (

@@ -3,7 +3,7 @@ import zBaloon from '..//..//..//assets/z-baloon.webp'
 import nounApp from '..//..//..//assets/noun-app-3165998.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import Colors from '../../common/Colors'
+import Colors from '../../../../common/Colors'
 
 export default function SectionHomeSeven(){
     return(

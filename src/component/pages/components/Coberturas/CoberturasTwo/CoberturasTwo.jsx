@@ -3,7 +3,7 @@ import Colors from '../../common/Colors';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
-import SectionHomeThree from '../../pages/SectionHomeThree/SectionHomeThree';
+import SectionHomeThree from '../../pages/components/Main/SectionHomeThree/SectionHomeThree';
 import CoberturasThree from '../CoberturasThree/CoberturasThree';
 
 export default function CoberturasTwo(){

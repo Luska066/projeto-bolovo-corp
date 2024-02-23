@@ -1,36 +1,18 @@
-import React, { useState } from 'react'
-import './index.css'
-import reactLogo from '..//..//..//assets/img01.webp'
-import Header from '../../Layout/Header/Header'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import Colors from '../../common/Colors'
-import { faDollar, faPlus } from '@fortawesome/free-solid-svg-icons'
-import ButtonCoteNow from '../../common/ButtonCoteNow';
-import SectionHomeOne from '../SectionHomeOne/SectionHomeOne'
-import SectionHomeTwo from '../SectionHometwo/SectionHometwo'
-import { Accordion, AccordionDetails, AccordionSummary, Typography, colors } from '@mui/material'
-import SectionHomeThree from '../SectionHomeThree/SectionHomeThree'
-import SectionHomeFour from '../SectionHomeFour/SectionHomeFour'
-import SectionHomeSix from '../SectionHomeSix/SectionHomeSix'
-import SectionHomeSeven from '../SectionHomeSeven/SectionHomeSeven'
-import Footer from '../../Layout/Footer/Footer'
+import { Accordion, AccordionDetails, AccordionSummary, Typography } from "@mui/material"
+import React from "react"
+import Colors from "../../../../common/Colors"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faChevronRight, faPlus } from "@fortawesome/free-solid-svg-icons"
 
-export default function SectionHomeMain(){
+export default function SectionHomeFive(){
     const [expanded, setExpanded] = React.useState('panel1');
 
     const handleChange = (panel) => (event, newExpanded) => {
         setExpanded(newExpanded ? panel : false);
     };
 
-    return (
-        <main className='flex flex-col border '>
-            <Header styled={{ backgroundColor: 'white', zIndex: 2 }} />
-            <SectionHomeOne />
-            <SectionHomeTwo />
-            <SectionHomeThree />
-            <SectionHomeFour />
-            <section className={`w-full flex flex-col justify-center items-center bg-[${Colors().lightBlue}] p-6`}>
+    return(
+        <section className={`w-full flex flex-col justify-center items-center bg-[${Colors().lightBlue}] p-6`}>
                 <h1 className={`flex justify-center text-[44px] mb-[30px] pb-3 text-[${Colors().navyBlue}] relative title-accordion`}>Principais Dúvidas</h1>
                 <article className='border-t pt-2 w-[55%] rounded-none  border-blue-400 '>
                     <Accordion className='border-b border-blue-400' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -125,9 +107,5 @@ export default function SectionHomeMain(){
                     <span>Mais dúvidas</span>
                 </div>
             </section>
-            <SectionHomeSix/>
-            <SectionHomeSeven/>
-            <Footer/>
-        </main>
     )
 }

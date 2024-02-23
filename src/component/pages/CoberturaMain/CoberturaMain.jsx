@@ -1,6 +1,6 @@
 import Header from "../../Layout/Header/Header"
-import CoberturaOne from '..//CoberturaOne/CoberturaOne'
-import CoberturasTwo from "../CoberturasTwo/CoberturasTwo"
+import CoberturaOne from '../components/Coberturas/CoberturaOne/CoberturaOne'
+import CoberturasTwo from "../components/Coberturas/CoberturasTwo/CoberturasTwo"
 
 export default function CoberturaMain(){
     return(

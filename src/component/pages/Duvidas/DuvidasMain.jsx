@@ -4,15 +4,19 @@ import DuvidasHeader from './component/pages/components/Duvidas/DuvidasHeader/Du
 import Header from './component/Layout/Header/Header'
 import DuvidasAccordions from './component/pages/components/Duvidas/DuvidasAccordions/DuvidasAccordions';
 import Footer from './component/Layout/Footer/Footer';
-import DuvidasMain from './component/pages/Duvidas/DuvidasMain';
 
 
 
-function App() {
+function DuvidasMain() {
 
   return (
-    <DuvidasMain/>
+    <>
+      <Header></Header>
+      <DuvidasHeader></DuvidasHeader>
+      <DuvidasAccordions/>
+      <Footer></Footer>
+    </>
   )
 }
 
-export default App
+export default DuvidasMain

@@ -14,11 +14,11 @@ export default function Header({styled}) {
                 <div className={`
                     flex items-center gap-2 
                     font-light text-[18px]
-                    text-[${Colors().blue}]
+                    text-[${Colors().navyBlue}]
                     `}>
                     <FontAwesomeIcon
                         className='text-[16px]'
-                        color={Colors().blue}
+                        color={Colors().navyBlue}
                         icon={faShieldHalved}
                     />
                     <span className="text-span-header">Vantagens</span>
@@ -26,11 +26,11 @@ export default function Header({styled}) {
                 <div className={`
                     flex items-center 
                     gap-2 
-                    font-light text-[18px] text-[${Colors().blue}]
+                    font-light text-[18px] text-[${Colors().navyBlue}]
                     `}>
                     <FontAwesomeIcon
                         className='text-[16px]'
-                        color={Colors().blue}
+                        color={Colors().navyBlue}
                         icon={faGlobe}
                     />
                     <span className="text-span-header">Coberturas</span>
@@ -41,29 +41,29 @@ export default function Header({styled}) {
                     `}>
                     <FontAwesomeIcon
                         className='text-[16px]'
-                        color={Colors().blue}
+                        color={Colors().navyBlue}
                         icon={faFileCircleCheck}
                     />
                     <span className="text-span-header">Termos</span>
                 </div>
                 <div className={`
                     flex items-center gap-2 
-                    font-light text-[18px] text-[${Colors().blue}]
+                    font-light text-[18px] text-[${Colors().navyBlue}]
                     `}>
                     <FontAwesomeIcon
                         className='text-[16px]'
-                        color={Colors().blue}
+                        color={Colors().navyBlue}
                         icon={faQuestionCircle}
                     />
                     <span className="text-span-header">Dúvidas frequentes</span>
                 </div>
                 <div className={`
                     flex items-center gap-2 
-                    font-light text-[18px] text-[${Colors().blue}]
+                    font-light text-[18px] text-[${Colors().navyBlue}]
                     `}>
                      <FontAwesomeIcon
                         className='text-[16px]'
-                        color={Colors().blue}
+                        color={Colors().navyBlue}
                         icon={faLocationArrow}
                     />
                     <span className="text-span-header">Localize um corretor</span>
@@ -73,7 +73,7 @@ export default function Header({styled}) {
             <nav id='burger-bar' className='pe-4 items-center justify-center'>
                     <FontAwesomeIcon
                         className='text-[30px]'
-                        color={Colors().blue}
+                        color={Colors().navyBlue}
                         icon={faBars}
                     />
             </nav>

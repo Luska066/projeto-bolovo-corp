@@ -10,7 +10,7 @@ export default function ButtonCoteNow({px=8,py=8}) {
             px-${px} py-[${py}px]
             rounded-full
             font-light text-[18px] text-white 
-            bg-[${Colors().blue}]
+            bg-[${Colors().navyBlue}]
             `}>
             <FontAwesomeIcon
                 className='text-[16px]'

@@ -9,7 +9,7 @@ import { faDollar, faPlus } from '@fortawesome/free-solid-svg-icons'
 import ButtonCoteNow from '../../common/ButtonCoteNow';
 import SectionHomeOne from '../SectionHomeOne/SectionHomeOne'
 import SectionHomeTwo from '../SectionHometwo/SectionHometwo'
-import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material'
+import { Accordion, AccordionDetails, AccordionSummary, Typography, colors } from '@mui/material'
 import SectionHomeThree from '../SectionHomeThree/SectionHomeThree'
 import SectionHomeFour from '../SectionHomeFour/SectionHomeFour'
 import SectionHomeSix from '../SectionHomeSix/SectionHomeSix'
@@ -30,8 +30,8 @@ export default function SectionHomeMain(){
             <SectionHomeTwo />
             <SectionHomeThree />
             <SectionHomeFour />
-            <section className='w-full flex flex-col justify-center items-center bg-[#ECEEEF] p-6'>
-                <h1 className='flex justify-center text-[44px] mb-[30px] pb-3 text-[#23366f] relative title-accordion'>Principais Dúvidas</h1>
+            <section className={`w-full flex flex-col justify-center items-center bg-[${Colors().lightBlue}] p-6`}>
+                <h1 className={`flex justify-center text-[44px] mb-[30px] pb-3 text-[${Colors().navyBlue}] relative title-accordion`}>Principais Dúvidas</h1>
                 <article className='border-t pt-2 w-[55%] rounded-none  border-blue-400 '>
                     <Accordion className='border-b border-blue-400' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                         <AccordionSummary

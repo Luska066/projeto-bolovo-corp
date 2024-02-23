@@ -7,14 +7,14 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import Colors from '../../common/Colors'
 import { faDollar, faPlus } from '@fortawesome/free-solid-svg-icons'
 import ButtonCoteNow from '../../common/ButtonCoteNow';
-import SectionHomeOne from '../components/Main/SectionHomeOne/SectionHomeOne'
-import SectionHomeTwo from '../components/Main/SectionHomeTwo/SectionHomeTwo'
+import SectionHomeOne from '../components/Home/SectionHomeOne/SectionHomeOne'
+import SectionHomeTwo from '../components/Home/SectionHomeTwo/SectionHomeTwo'
 import { Accordion, AccordionDetails, AccordionSummary, Typography, colors } from '@mui/material'
-import SectionHomeThree from '../components/Main/SectionHomeThree/SectionHomeThree'
-import SectionHomeFour from '../SectionHomeFour/SectionHomeFour'
-import SectionHomeFive from '../components/Main/SectionHomeFive/SectionHomeFive'
-import SectionHomeSix from '../components/Main/SectionHomeSix/SectionHomeSix'
-import SectionHomeSeven from '../components/Main/SectionHomeSeven/SectionHomeSeven'
+import SectionHomeThree from '../components/Home/SectionHomeThree/SectionHomeThree'
+import SectionHomeFour from '../components/SectionHomeFour/Home/SectionHomeFour'
+import SectionHomeFive from '../components/Home/SectionHomeFive/SectionHomeFive'
+import SectionHomeSix from '../components/Home/SectionHomeSix/SectionHomeSix'
+import SectionHomeSeven from '../components/Home/SectionHomeSeven/SectionHomeSeven'
 import Footer from '../../Layout/Footer/Footer'
 
 export default function SectionHomeMain(){

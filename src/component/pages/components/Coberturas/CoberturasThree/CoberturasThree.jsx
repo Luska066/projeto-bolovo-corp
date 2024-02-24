@@ -6,9 +6,9 @@ import danosIcon from '../../../../../assets/icone-danos.webp'
 
 export default function CoberturasThree(){
     return(
-        <section className='flex justify-center pb-[40px]' style={{backgroundColor:Colors().lightBlue}}>
+        <section className='flex justify-center pb-[40px] pt-[20px]' style={{backgroundColor:Colors().lightBlue}}>
 
-            <div className='flex'>
+            <div className='flex gap-6'>
 
                 <div className='flex gap-6'>
                     <div><img width={'75px'} src={furtoIcon} alt="" /></div>

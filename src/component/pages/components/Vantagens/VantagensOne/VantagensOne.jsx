@@ -1,19 +1,18 @@
-import womanImg from '../../../../../assets/woman-img.webp'
-import Colors from '../../../../common/Colors'
 import './index.css'
+import Colors from '../../../../common/Colors'
+import vantagensWoman from '../../../../../assets/vantagens-woman.webp'
 
-export default function CoberturaOne(){
+export default function VantagensOne(){
     return(
-        <header className='flex justify-center items-center gap-20' style={{backgroundColor:Colors().lightCoberturasBlue}}>
+        <header className='flex justify-center items-center gap-[80px] pt-[10px]' style={{backgroundColor:Colors().strongBlueCoberturas}}>
 
             <div>
-                <h1 className='text-[60px] mb-[8px]' style={{color:Colors().blueStrong}}>Seguro Celular Zurich</h1>
-                <p className='text-[22px] w-[550px]' style={{color:Colors().blueStrong}}>Coberturas completas contra todos os tipos de furtos, roubos e danos materiais.</p>
+                <h1 className='text-[40px] mb-[8px]' style={{color:'white'}}>Vantagens do Seguro Celular Zurich</h1>
             </div>
 
             <div className='flex'>
-                <img className='rounded-full w-[300px]' src={womanImg} alt="" />
-                <div className="self-end relative right-[60px]">
+                <img className='rounded-full w-[200px]' src={vantagensWoman} alt="" />
+                <div className="self-end relative right-[40px]">
                     <svg class="image-shapes" xmlns="http://www.w3.org/2000/svg" width="200.483" height="119.655" viewBox="0 0 200.483 119.655">
                         <g id="Grupo_60" data-name="Grupo 60" transform="translate(-12374.086 -7538.65)">
                             <circle id="Elipse_6" data-name="Elipse 6" cx="12" cy="12" r="12" transform="translate(12374.086 7633.477)" fill="#56ADE0"></circle>

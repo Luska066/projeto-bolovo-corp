@@ -1,19 +1,13 @@
-import womanImg from '../../../../../assets/woman-img.webp'
-import Colors from '../../../../common/Colors'
-import './index.css'
-
-export default function CoberturaOne(){
-    return(
-        <header className='flex justify-center items-center gap-20' style={{backgroundColor:Colors().lightCoberturasBlue}}>
-
-            <div>
-                <h1 className='text-[60px] mb-[8px]' style={{color:Colors().blueStrong}}>Seguro Celular Zurich</h1>
-                <p className='text-[22px] w-[550px]' style={{color:Colors().blueStrong}}>Coberturas completas contra todos os tipos de furtos, roubos e danos materiais.</p>
-            </div>
-
-            <div className='flex'>
-                <img className='rounded-full w-[300px]' src={womanImg} alt="" />
-                <div className="self-end relative right-[60px]">
+import React from "react"
+import Colors from "../../../../common/Colors"
+import Image from "../../../../../assets/imageWomanAsk.webp"
+export default function DuvidasHeader() {
+    return (
+        <header className={`w-[100%] bg-[${Colors().blue}] flex gap-[15pc] justify-center items-center`}>
+            <h1 className="text-white text-[50px]  font-light">Dúvidas Frequentes</h1>
+            <div className="flex flex-row ">
+                <img style={{ marginTop:15,width:200,height:200 }} className="rounded-full" src={Image}></img>
+                <div className="self-end relative right-9">
                     <svg class="image-shapes" xmlns="http://www.w3.org/2000/svg" width="200.483" height="119.655" viewBox="0 0 200.483 119.655">
                         <g id="Grupo_60" data-name="Grupo 60" transform="translate(-12374.086 -7538.65)">
                             <circle id="Elipse_6" data-name="Elipse 6" cx="12" cy="12" r="12" transform="translate(12374.086 7633.477)" fill="#56ADE0"></circle>
@@ -25,7 +19,6 @@ export default function CoberturaOne(){
                     </svg>
                 </div>
             </div>
-
         </header>
     )
 }

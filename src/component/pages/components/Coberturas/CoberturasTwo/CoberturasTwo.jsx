@@ -7,9 +7,11 @@ export default function CoberturasTwo(){
     return(
         <section>
 
-            <ul className='flex items-center gap-2 pl-[20%] pt-[40px]' style={{backgroundColor:Colors().lightBlue}}>
-                <li><FontAwesomeIcon style={{color:Colors().navyBlue}} icon={faHouse} /></li>
-                <li className='relative liSecurityPhone flex items-center gap-1'><a href="#" style={{color:Colors().blue}}>Seguro Celular</a></li>
+            <ul className='flex items-center gap-2 pl-[20%] pt-[40px] ulCoberturasTwo' style={{backgroundColor:Colors().lightBlue}}>
+                <div className='flex items-center gap-2 divUlCoberturasTwo'>
+                    <li><FontAwesomeIcon style={{color:Colors().navyBlue}} icon={faHouse} /></li>
+                    <li className='relative liSecurityPhone flex items-center gap-1'><a href="#" style={{color:Colors().blue}}>Seguro Celular</a></li>
+                </div>
                 <li className='relative liCoberturas flex items-center gap-1'style={{color:Colors().blue}} >Coberturas</li>
             </ul>
 

@@ -3,6 +3,7 @@ import React from "react"
 import Colors from "../../../../common/Colors"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronRight, faPlus } from "@fortawesome/free-solid-svg-icons"
+import './index.css'
 
 export default function SectionHomeFive(){
     const [expanded, setExpanded] = React.useState('panel1');
@@ -12,9 +13,9 @@ export default function SectionHomeFive(){
     };
 
     return(
-        <section className={`w-full flex flex-col justify-center items-center bg-[${Colors().lightBlue}] p-6`}>
-                <h1 className={`flex justify-center text-[44px] mb-[30px] pb-3 text-[${Colors().navyBlue}] relative title-accordion`}>Principais Dúvidas</h1>
-                <article className='border-t pt-2 w-[55%] rounded-none  border-blue-400 '>
+        <section className={`w-full flex flex-col justify-center items-center bg-[${Colors().lightBlue}] p-6 sectionAccordion`}>
+                <h1 className={`flex justify-center text-[44px] mb-[30px] pb-3 text-center text-[${Colors().navyBlue}] relative title-accordion`}>Principais Dúvidas</h1>
+                <article className='border-t pt-2 w-[860px] rounded-none  border-blue-400 articleAccordion'>
                     <Accordion className='border-b border-blue-400' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                         <AccordionSummary
                         expandIcon={<FontAwesomeIcon color={Colors().blue} icon={faPlus} />}
@@ -41,7 +42,7 @@ export default function SectionHomeFive(){
                         id="panel1-header"
                         className={`text-[26px] rounded-none shadow-none`}
                         >
-                        <Typography fontSize={'24px'} color={Colors().blue} fontWeight={'light'}>O seguro possui carência? O que isso significa?</Typography>
+                        <Typography fontSize={'24px'} color={Colors().blue} fontWeight={'light'} className="questionAccordion">O seguro possui carência? O que isso significa?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                         <Typography>
@@ -60,7 +61,7 @@ export default function SectionHomeFive(){
                         id="panel1-header"
                         className={`text-[26px] rounded-none shadow-none`}
                         >
-                        <Typography fontSize={'24px'} color={Colors().blue} fontWeight={'light'}>Quais são as opções de cobertura?</Typography>
+                        <Typography fontSize={'24px'} color={Colors().blue} fontWeight={'light'} className="questionAccordion">Quais são as opções de cobertura?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                         <Typography>
@@ -79,7 +80,7 @@ export default function SectionHomeFive(){
                         id="panel1-header"
                         className={`text-[26px] rounded-none shadow-none`}
                         >
-                        <Typography fontSize={'24px'} color={Colors().blue} fontWeight={'light'}>Como faço para acionar o seguro?</Typography>
+                        <Typography fontSize={'24px'} color={Colors().blue} fontWeight={'light'} className="questionAccordion">Como faço para acionar o seguro?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                         <Typography>

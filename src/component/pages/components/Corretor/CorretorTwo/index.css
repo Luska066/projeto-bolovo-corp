@@ -1,0 +1,12 @@
+@media (max-width:386px) {
+    .ulCorretorTwo{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:284px) {
+    .ulCorretorTwo{
+        flex-direction: column;
+    }
+    
+}

@@ -4,6 +4,8 @@ import ButtonCoteNow from '../../../../common/ButtonCoteNow';
 import './index.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDollar } from "@fortawesome/free-solid-svg-icons";
+import './index.css'
+
 export default function SectionHomeOne() {
   return (
     <section
@@ -11,7 +13,7 @@ export default function SectionHomeOne() {
       className={`
           flex bg-[${Colors().lightPink}]
           items-center justify-center  gap-[12%]
-          relative bottom-4 flex-wrap-reverse`}
+          relative bottom-4 flex-wrap-reverse overflow-hidden`}
       style={{ zIndex: -1 }}
     >
       <div id='section-text' 
@@ -21,7 +23,7 @@ export default function SectionHomeOne() {
           items-start 
           mb-4 ps-4'>
         <h1 className={`text-[3.5em] text-[${Colors().navyBlue}] font-light`}>Seguro Celular</h1>
-        <p className={`text-[1.6em] w-[550px] text-[${Colors().navyBlue}] font-[300]`}>Proteção sob medida em poucos minutos, sem carência e sem fronteiras!</p>
+        <p className={`text-[1.6em] w-[550px] text-[${Colors().navyBlue}] font-[300] pSectionOne`}>Proteção sob medida em poucos minutos, sem carência e sem fronteiras!</p>
         <div className={`
             flex items-center gap-2
             px-8 py-[12px]
@@ -42,9 +44,9 @@ export default function SectionHomeOne() {
         id="section-image"
         className='
             flex justify-center
-            w-[400px] '
+            w-[400px]'
       >
-        <img className='rounded-full top-20' style={{ maxWidth: '400px' }} src={Image} />
+        <img className='rounded-full top-20 imgSectionHomeOne' style={{ maxWidth: '400px' }} src={Image} />
       </div>
     </section>
   )

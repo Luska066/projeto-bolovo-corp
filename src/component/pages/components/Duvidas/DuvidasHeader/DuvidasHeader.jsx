@@ -1,13 +1,15 @@
 import React from "react"
 import Colors from "../../../../common/Colors"
 import Image from "../../../../../assets/imageWomanAsk.webp"
+import './index.css'
+
 export default function DuvidasHeader() {
     return (
-        <header className={`w-[100%] bg-[${Colors().blue}] flex gap-[15pc] justify-center items-center`}>
-            <h1 className="text-white text-[50px]  font-light">Dúvidas Frequentes</h1>
-            <div className="flex flex-row ">
+        <header className={`w-[100%] bg-[${Colors().strongBlueCoberturas}] flex justify-evenly items-center boxDuvidasHeader`}>
+            <h1 className="text-white text-[50px] font-light h1DuvidasHeader">Dúvidas Frequentes</h1>
+            <div className="flex flex-row boxStyleDuvidasHeader">
                 <img style={{ marginTop:15,width:200,height:200 }} className="rounded-full" src={Image}></img>
-                <div className="self-end relative right-9">
+                <div className="self-end relative right-9 imgStyleDuvidasHeader">
                     <svg class="image-shapes" xmlns="http://www.w3.org/2000/svg" width="200.483" height="119.655" viewBox="0 0 200.483 119.655">
                         <g id="Grupo_60" data-name="Grupo 60" transform="translate(-12374.086 -7538.65)">
                             <circle id="Elipse_6" data-name="Elipse 6" cx="12" cy="12" r="12" transform="translate(12374.086 7633.477)" fill="#56ADE0"></circle>

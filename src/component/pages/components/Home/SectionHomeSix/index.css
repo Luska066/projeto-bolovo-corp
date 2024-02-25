@@ -7,3 +7,15 @@
     content: '';
     background-color:white;
 }
+
+@media (max-width:674px) {
+    .titleSecurityPhone{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:356px) {
+    .whatBox, .chatBox, .spaceClientBox{
+        padding-bottom: 20px;
+    }
+}

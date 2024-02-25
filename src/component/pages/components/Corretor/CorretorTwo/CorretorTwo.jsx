@@ -7,10 +7,12 @@ export default function CorretorTwo(){
     return(
         <section className='pb-[30px]'>
 
-            <ul className='flex items-center gap-2 pl-[20%] pt-[40px]' style={{backgroundColor:'white'}}>
-                <li><FontAwesomeIcon style={{color:Colors().navyBlue}} icon={faHouse} /></li>
-                <li className='relative liSecurityPhone flex items-center gap-1'><a href="#" style={{color:Colors().blue}}>Seguro Celular</a></li>
-                <li className='relative liCoberturas flex items-center gap-1'style={{color:Colors().blue}} >Localize um corretor</li>
+            <ul className='flex items-center gap-2 pl-[20%] pt-[40px] ulCorretorTwo' style={{backgroundColor:'white'}}>
+            <div className='flex items-center gap-2'>
+                    <li><FontAwesomeIcon style={{color:Colors().navyBlue}} icon={faHouse} /></li>
+                    <li className='relative liSecurityPhone flex items-center gap-1'><a href="#" style={{color:Colors().blue}}>Seguro Celular</a></li>
+                </div>
+                <li className='relative liCoberturas flex items-center gap-1'style={{color:Colors().blue}} >Vantagens</li>
             </ul>
 
         </section>

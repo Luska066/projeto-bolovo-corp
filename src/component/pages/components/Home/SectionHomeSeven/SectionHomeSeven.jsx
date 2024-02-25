@@ -7,13 +7,13 @@ import Colors from '../../../../common/Colors'
 
 export default function SectionHomeSeven(){
     return(
-        <div className={`flex justify-center p-[30px] py-[70px] bg-[${Colors().lightBlue}]`}>
+        <div className={`flex justify-center py-[70px] bg-[${Colors().lightBlue}] sectionSevenMainBox`}>
 
-            <div className='flex gap-8'>
+            <div className='flex gap-8 sectionSevenBox'>
 
-                <div className='flex gap-6'>
+                <div className='flex gap-6 sobreMainBox'>
                     <div><img width={'60px'} src={zBaloon} alt="" /></div>
-                    <div className='w-[330px]'>
+                    <div className='w-[330px] sobreBox'>
                         <h3 className={`text-[28px] mb-[5px] text-[${Colors().navyBlue}]`}>Sobre a Zurich</h3>
                         <p className={`text-[20px] mb-[16px] leading-[1.6] text-[${Colors().navyBlue}]`}>Quando o assunto é proteção, a Zurich tem
                             soluções de seguros para pessoas e empresas.
@@ -37,9 +37,9 @@ export default function SectionHomeSeven(){
                     </div>
                 </div>
 
-                <div className='border-l ml-10 pl-10 border-black flex gap-6'>
+                <div className='border-l ml-10 pl-10 border-black flex gap-6 sustentabilidadeMainBox'>
                     <div><img width={'60px'} src={nounApp} alt="" /></div>
-                    <div className='w-[350px]'>
+                    <div className='w-[350px] sustentabilidadeBox'>
                         <h3 className={`text-[28px] mb-[5px] text-[${Colors().navyBlue}]`}>Sustentabilidade</h3>
                         <p className={`text-[20px] mb-[16px] leading-[1.6] text-[${Colors().navyBlue}]`}>Ao contratar o seguro celular da Zurich você contribui com
                             diversas ações sustentáveis, incluindo o <strong>Projeto Floresta

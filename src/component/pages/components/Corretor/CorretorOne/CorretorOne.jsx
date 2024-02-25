@@ -4,16 +4,16 @@ import Colors from '../../../../common/Colors'
 
 export default function CorretorOne(){
     return(
-        <header className='flex justify-evenly items-center pt-[10px]' style={{backgroundColor:Colors().strongBlueCoberturas}}>
+        <header className='flex justify-evenly items-center pt-[10px] headerCorretorOne' style={{backgroundColor:Colors().strongBlueCoberturas}}>
 
-            <div>
+            <div className='titleCorretorOne'>
                 <h1 className='text-[50px] mb-[8px]' style={{color:'white'}}>Localize um corretor</h1>
             </div>
 
-            <div className='flex'>
+            <div className='flex boxStyleCorretorOne'>
                 <img className='rounded-full w-[200px]' src={corretorWoman} alt="" />
-                <div className="self-end relative right-[40px]">
-                    <svg class="image-shapes" xmlns="http://www.w3.org/2000/svg" width="200.483" height="119.655" viewBox="0 0 200.483 119.655">
+                <div className="self-end relative right-[40px] imgStyleBoxCorretorOne">
+                    <svg className='imgStyleCorretorOne' class="image-shapes" xmlns="http://www.w3.org/2000/svg" width="200.483" height="119.655" viewBox="0 0 200.483 119.655">
                         <g id="Grupo_60" data-name="Grupo 60" transform="translate(-12374.086 -7538.65)">
                             <circle id="Elipse_6" data-name="Elipse 6" cx="12" cy="12" r="12" transform="translate(12374.086 7633.477)" fill="#56ADE0"></circle>
                             <circle id="Elipse_7" data-name="Elipse 7" cx="22" cy="25" r="23" transform="translate(12441.086 7608.477)" fill="#DDE4E3"></circle>

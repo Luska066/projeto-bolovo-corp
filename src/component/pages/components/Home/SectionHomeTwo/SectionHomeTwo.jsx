@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Colors from "../../../../common/Colors";
 import { faDollar } from "@fortawesome/free-solid-svg-icons";
+import './index.css'
 
 export default function SectionHomeTwo(){
     return(
@@ -13,6 +14,7 @@ export default function SectionHomeTwo(){
         `}>
           <h2 className={`
             text-[2.6em] 
+            text-center
             text-[${Colors().navyBlue}]
             font-normal
             `}>
@@ -56,7 +58,7 @@ export default function SectionHomeTwo(){
             </article>
             <article className='w-[320px] flex flex-col justify-center items-center gap-2'>
               <img style={{ height:'150px' }} src='https://www.zurich.com.br/pt-br/-/media/project/zwp/brazil/Images/seguro-celular/v2/icone-celulares-24meses.webp' />
-              <p className={`font-light color-[${Colors().navyBlue}] text-[20px] w-[300px]`}>
+              <p className={`font-light color-[${Colors().navyBlue}] text-[20px] w-[300px] paragraph5SectionHomeTwo`}>
               Proteção para celulares com até 24 meses de uso desde a data de compra
               </p>
             </article>

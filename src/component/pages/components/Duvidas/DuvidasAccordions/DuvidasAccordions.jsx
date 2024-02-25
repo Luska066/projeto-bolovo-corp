@@ -15,22 +15,28 @@ export default function DuvidasAccordions(){
         <ul className='
           flex 
           items-center
+          self-start
+          pl-[20%]
           gap-2 
           pb-[40px] 
           pt-[40px] 
-          relative right-[20%]
+          ulDuvidasAccordions
           '>
-          <li>
-            <FontAwesomeIcon color={Colors().navyBlue} icon={faHouse} />
-          </li>
+          <div className='flex items-center gap-2'>
+            
+            <li>
+              <FontAwesomeIcon color={Colors().navyBlue} icon={faHouse} />
+            </li>
+            <li
+              className='relative liSecurityPhone flex items-center gap-1'
+              style={{ color: Colors().navyBlue }}>
+              <a href="#" style={{ color: Colors().blue }}>
+                Seguro Celular
+              </a>
+            </li>
+          </div>
           <li
-            className='relative liSecurityPhone flex items-center gap-1'
-            style={{ color: Colors().navyBlue }}>
-            <a href="#" style={{ color: Colors().blue }}>
-              Seguro Celular
-            </a>
-          </li>
-          <li
+            id='li2Duvidas'
             className='
             relative 
             liCoberturas 
@@ -41,7 +47,7 @@ export default function DuvidasAccordions(){
             Dúvidas frequentes
           </li>
         </ul>
-        <article className='border-t pb-10 pt-2 w-[55%] rounded-none  border-blue-400 '>
+        <article className='border-t pb-10 pt-2 w-[1000px] rounded-none  border-blue-400 articleDuvidasAccordion'>
           {/* 001 */}
           <Accordion className='border-b border-blue-400' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
             <AccordionSummary
@@ -50,7 +56,7 @@ export default function DuvidasAccordions(){
               id="panel1-header"
               className={`text-[26px] rounded-none shadow-none`}
             >
-              <Typography fontSize={'24px'} color={Colors().blue} fontWeight={'light'}>O seguro possui franquia?</Typography>
+              <Typography fontSize={'24px'} color={Colors().blue} fontWeight={'light'} >O seguro possui franquia?</Typography>
             </AccordionSummary>
             <AccordionDetails >
               <Typography

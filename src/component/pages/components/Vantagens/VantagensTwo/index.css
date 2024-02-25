@@ -1,0 +1,12 @@
+@media (max-width:386px) {
+    .ulVantagensTwo{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:284px) {
+    .ulVantagensTwo{
+        flex-direction: column;
+    }
+    
+}

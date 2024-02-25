@@ -13,3 +13,70 @@
     color:'#23366f';
     font-size: 20px;
 }
+
+@media (max-width:1255px) {
+    .articleDuvidasAccordion{
+        width: 800px;
+    }
+}
+
+@media (max-width:887px) {
+    .articleDuvidasAccordion{
+        width: 600px;
+    }
+}
+
+@media (max-width:643px) {
+    .articleDuvidasAccordion{
+        width: 400px;
+    }
+}
+
+@media (max-width:447px) {
+    .articleDuvidasAccordion{
+        width: 350px;
+    }
+}
+
+@media (max-width:557px) {
+    .ulDuvidasAccordions{
+        padding-left: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:344px) {
+    .ulDuvidasAccordions{
+        padding-left: 3px;
+    }
+}
+
+@media (max-width:387px) {
+    .articleDuvidasAccordion{
+        width: 300px;
+    }
+}
+
+@media (max-width:341px) {
+    .articleDuvidasAccordion{
+        width: 280px;
+    }
+}
+
+@media (max-width:317px) {
+    .articleDuvidasAccordion{
+        width: 260px;
+    }
+
+    .ulDuvidasAccordions{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:293px) {
+    .articleDuvidasAccordion{
+        width: 90%;
+    }
+}

@@ -13,7 +13,7 @@ export default function CoberturasFive(){
                 <h3 className={`text-[20px] w-[730px] text-[${Colors().navyBlue}] h3CoberturasFive`} >Compare os planos Econômico e Completo da Zurich com os outros seguros do mercado e escolha a melhor opção para você.</h3>
             </div>
 
-            <div className=" tableCoberturasFive w-[950px]">
+            <div className=" tableCoberturasFive w-[950px] mb-[40px]">
 
                 <table className="border-spacing-[4px] border-separate w-[950px] table">
                     <tr>
@@ -28,7 +28,7 @@ export default function CoberturasFive(){
                             <br/>
                             <strong>Plano Completo</strong>
                         </td>
-                        <td className="text-[18px] text-center w-[270px]">
+                        <td className={`text-[18px] text-center w-[270px] text-[${Colors().navyBlue}]`}>
                             <strong>Outros seguros</strong>
                         </td>
                     </tr>

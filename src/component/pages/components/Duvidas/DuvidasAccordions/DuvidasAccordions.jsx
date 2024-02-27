@@ -30,7 +30,7 @@ export default function DuvidasAccordions(){
             <li
               className='relative liSecurityPhone flex items-center gap-1'
               style={{ color: Colors().navyBlue }}>
-              <a href="#" style={{ color: Colors().blue }}>
+              <a href="#" style={{ color: Colors().navyBlue}}>
                 Seguro Celular
               </a>
             </li>
@@ -39,7 +39,7 @@ export default function DuvidasAccordions(){
             id='li2Duvidas'
             className='
             relative 
-            liCoberturas 
+            liDuvidas 
             flex 
             items-center 
             gap-1'
@@ -524,10 +524,13 @@ export default function DuvidasAccordions(){
               <Typography paddingTop={2} color={Colors().navyBlue}>
                 Assista ao vídeo e saiba como localizar o IMEI do seu celular.
               </Typography>
-              <Box paddingTop={3} >
+              <Box paddingTop={3} className="w-[70%] h-[400px] boxIframe">
                 <ReactPlayer
                   controls={true}
-                  width={"70%"}
+                  // maxHeight={'500px'}
+                  // width={"100%"}
+                  width={'100%'}
+                  height={'100%'}
                   url='https://www.youtube.com/watch?v=baIrfoWpV2E'
                 />
               </Box>

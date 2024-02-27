@@ -7,7 +7,7 @@ import VantagemMain from './component/pages/Vantagem/VantagemMain'
 function App() {
 
   return (
-    <CoberturaMain/>
+    <SectionHomeMain/>
   )
 }
 

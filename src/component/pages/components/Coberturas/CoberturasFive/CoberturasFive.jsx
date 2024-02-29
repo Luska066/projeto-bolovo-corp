@@ -81,7 +81,9 @@ export default function CoberturasFive(){
             </div>
 
             
-            <div className={`py-[13px] px-[25px] border border-solid border-[${Colors().blue}] border-2 w-fit rounded-[30px] flex gap-2 items-center`}>
+            <div 
+            onClick={() => window.location.href = "https://segurocelular.zurich.com.br/partner/ab1c362a-bc06-46e4-9ec6-84e718672fed"} 
+            className={`py-[13px] px-[25px] border border-solid border-[${Colors().blue}] border-2 w-fit rounded-[30px] flex gap-2 items-center`}>
                 <FontAwesomeIcon style={{color:Colors().blue}} icon={faHeart} />
                 <span style={{color:Colors().blue}}>Cote agora</span>
             </div>

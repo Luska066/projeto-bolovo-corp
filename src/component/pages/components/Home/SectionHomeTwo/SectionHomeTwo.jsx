@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Colors from "../../../../common/Colors";
 import { faDollar } from "@fortawesome/free-solid-svg-icons";
 import './index.css'
+import ButtonCoteNow from "../../../../common/ButtonCoteNow";
 
 export default function SectionHomeTwo(){
     return(
@@ -69,19 +70,8 @@ export default function SectionHomeTwo(){
               </p>
             </article>
           </section>
-          <div className={`
-            flex items-center gap-2
-            px-8 py-[12px] mt-10
-            rounded-full
-            font-light text-[18px] text-white 
-            bg-[${Colors().blue}]
-            `}>
-            <FontAwesomeIcon
-                className='text-[16px]'
-                color={'white'}
-                icon={faDollar}
-            />
-            <span >Cote agora</span>
+          <div className="py-10">
+          <ButtonCoteNow py={15} />
         </div>
         </section>
       </section>

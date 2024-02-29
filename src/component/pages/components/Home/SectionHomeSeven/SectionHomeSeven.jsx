@@ -13,14 +13,19 @@ export default function SectionHomeSeven(){
 
                 <div className='flex gap-6 sobreMainBox'>
                     <div><img width={'60px'} src={zBaloon} alt="" /></div>
-                    <div className='w-[330px] sobreBox'>
+                    <div 
+                    
+                    className='w-[330px] sobreBox'>
                         <h3 className={`text-[28px] mb-[5px] text-[${Colors().navyBlue}]`}>Sobre a Zurich</h3>
                         <p className={`text-[20px] mb-[16px] leading-[1.6] text-[${Colors().navyBlue}]`}>Quando o assunto é proteção, a Zurich tem
                             soluções de seguros para pessoas e empresas.
                             Há 150 anos, trabalha para estar entre as 
                             companhias mais responsáveis e de maior impacto no mundo.
                         </p>
-                        <div className={`w-fit
+                        <div 
+                        onClick={() => {
+                            window.location.href = "/seguro-celular/duvidas-frequentes"}}
+                        className={`w-fit
                             flex items-center justify-center gap-2
                             px-8 py-[12px] mt-6
                             rounded-full
@@ -47,7 +52,10 @@ export default function SectionHomeSeven(){
                             e o programa de <strong>Descarte responsável</strong>, que coleta e destina
                             corretamente produtos eletrônicos como celulares e carregadores.
                         </p>
-                        <div className={`w-fit
+                        <div 
+                         onClick={() => {
+                            window.location.href = "/seguro-celular/duvidas-frequentes"}}
+                        className={`w-fit
                             flex items-center justify-center gap-2
                             px-8 py-[12px] mt-6
                             rounded-full

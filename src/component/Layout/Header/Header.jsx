@@ -9,13 +9,15 @@ export default function Header({styled}) {
     
     return (
         <header className='flex flex-row items-center justify-between px-6 py-2' style={styled}>
-            <img src='https://www.zurich.com.br/-/media/project/zwp/shared/zurich-logo-blue.svg?mw=1450&rev=-1&hash=9C43F588F204AC2EE4EFE4AAB67C2F0F' style={{ width: "150px" }} />
+            <img src='https://www.zurich.com.br/-/media/project/zwp/shared/zurich-logo-blue.svg?mw=1450&rev=-1&hash=9C43F588F204AC2EE4EFE4AAB67C2F0F' style={{ width: "150px" }}   onClick={() => window.location.href="/"}/>
             <nav id='nav-bar' className="gap-10 flex pe-12 md:max-">
                 <div className={`
                     flex items-center gap-2 
                     font-light text-[18px]
                     text-[${Colors().blue}]
-                    `}>
+                    `}
+                    onClick={() => window.location.href="/seguro-celular/vantagens"}
+                    >
                     <FontAwesomeIcon
                         className='text-[16px]'
                         color={Colors().blue}
@@ -27,7 +29,9 @@ export default function Header({styled}) {
                     flex items-center 
                     gap-2 
                     font-light text-[18px] text-[${Colors().blue}]
-                    `}>
+                    `}
+                    onClick={() => window.location.href="/seguro-celular/coberturas"}
+                    >
                     <FontAwesomeIcon
                         className='text-[16px]'
                         color={Colors().blue}
@@ -38,7 +42,10 @@ export default function Header({styled}) {
                 <div className={`
                     flex items-center gap-2 
                     font-light text-[18px] text-[${Colors().blue}]
-                    `}>
+                    `}
+                    onClick={() => window.location.href="https://www.zurich.com.br/pt-br/seguro-celular/condicoes-gerais"} 
+                    >
+                    
                     <FontAwesomeIcon
                         className='text-[16px]'
                         color={Colors().blue}
@@ -49,7 +56,9 @@ export default function Header({styled}) {
                 <div className={`
                     flex items-center gap-2 
                     font-light text-[18px] text-[${Colors().blue}]
-                    `}>
+                    `}
+                    onClick={() => window.location.href="/seguro-celular/duvidas-frequentes"} 
+                    >
                     <FontAwesomeIcon
                         className='text-[16px]'
                         color={Colors().blue}
@@ -60,7 +69,9 @@ export default function Header({styled}) {
                 <div className={`
                     flex items-center gap-2 
                     font-light text-[18px] text-[${Colors().blue}]
-                    `}>
+                    `}
+                    onClick={() => window.location.href="/seguro-celular/localize-um-corretor"} 
+                    >
                      <FontAwesomeIcon
                         className='text-[16px]'
                         color={Colors().blue}

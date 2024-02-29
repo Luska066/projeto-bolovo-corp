@@ -71,7 +71,10 @@ export default function SectionHomeThree(){
                 </article>
                
             </section>
-            <div className={`
+            <div 
+            onClick={() => {
+                window.location.href = "/seguro-celular/duvidas-frequentes"}}
+            className={`
             flex items-center justify-center gap-2
             px-8 py-[12px] mt-2
             rounded-full

@@ -14,30 +14,18 @@ export default function SectionHomeOne() {
           flex bg-[${Colors().lightPink}]
           items-center justify-center  gap-[12%]
           relative bottom-4 flex-wrap-reverse overflow-hidden`}
-      style={{ zIndex: -1 }}
+      style={{ }}
     >
-      <div id='section-text' 
-      className='
+      <div id='section-text'
+        className='
           flex 
           flex-col 
           items-start 
           mb-4 ps-4'>
         <h1 className={`text-[3.5em] text-[${Colors().navyBlue}] font-light`}>Seguro Celular</h1>
         <p className={`text-[1.6em] w-[550px] text-[${Colors().navyBlue}] font-[300] pSectionOne`}>Proteção sob medida em poucos minutos, sem carência e sem fronteiras!</p>
-        <div className={`
-            flex items-center gap-2
-            px-8 py-[12px]
-            rounded-full
-            mt-4
-            font-light text-[18px] text-white 
-            bg-[${Colors().blue}]
-            `}>
-          <FontAwesomeIcon
-            className='text-[16px]'
-            color={'white'}
-            icon={faDollar}
-          />
-          <span >Cote agora</span>
+        <div className="py-3" style={{ zIndex:1 }}>
+          <ButtonCoteNow py={15} />
         </div>
       </div>
       <div

@@ -5,7 +5,10 @@ import Colors from "./Colors";
 export default function ButtonCoteNow({px=8,py=8}) {
     console.log(py)
     return (
-        <div className={`
+        <button 
+        onClick={() => {
+            window.location.href = "https://segurocelular.zurich.com.br/partner/ab1c362a-bc06-46e4-9ec6-84e718672fed"}}
+        className={`
             flex items-center gap-2
             px-${px} py-[${py}px]
             rounded-full
@@ -18,6 +21,6 @@ export default function ButtonCoteNow({px=8,py=8}) {
                 icon={faDollar}
             />
             <span className="text-span-header">Cote agora</span>
-        </div>
+        </button>
     )
 }
